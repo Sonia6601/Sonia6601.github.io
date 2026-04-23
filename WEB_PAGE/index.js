@@ -1,4 +1,23 @@
-function showabout(){
+var currentlanguage = 'en';
+
+const translations = {
+    about: { en: 'about', es: 'sobre mi' },
+    work: { en: 'work', es: 'proyectos' },
+    contact: { en: 'contact', es: 'contacto' },
+    career: { en: 'Software Engineer / Game Developer', es: 'Ingenieria de software / Desarrollo de videojuegos'}
+};
+
+function changelang() {
+    currentlanguage = currentlanguage === 'en' ? 'es' : 'en';
+
+    for (const [id, texts] of Object.entries(translations)) {
+        const el = document.getElementById(id);
+        if (el) el.innerText = texts[currentlanguage];
+    }
+
+    document.getElementById('lang-btn').innerText = currentlanguage === 'en' ? 'ES' : 'EN';
+}
+function showabout() {
     $("#about_container").css("display","inherit");
     $("#about_container").addClass("animated slideInUp");
     setTimeout(function(){
