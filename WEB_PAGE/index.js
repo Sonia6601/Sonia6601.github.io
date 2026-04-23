@@ -3,8 +3,9 @@ var currentlanguage = 'en';
 const translations = {
     about: { en: 'about', es: 'sobre mi' },
     work: { en: 'work', es: 'proyectos' },
-    contact: { en: 'contact', es: 'contacto' },
-    career: { en: 'Software Engineer / Game Developer', es: 'Ingenieria de software / Desarrollo de videojuegos'}
+    contact: { en: 'curriculum', es: 'curriculum' },
+    career: { en: 'Software Engineer / Game Developer', es: 'Ingenieria de software / Desarrollo de videojuegos' }
+
 };
 
 function changelang() {
@@ -16,6 +17,19 @@ function changelang() {
     }
 
     document.getElementById('lang-btn').innerText = currentlanguage === 'en' ? 'ES' : 'EN';
+}
+function showvideogames() {
+    document.getElementById('videogames_section').style.display = 'block';
+}
+function closevideogames() {
+    document.getElementById('videogames_section').style.display = 'none';
+}
+
+function showapps() {
+    document.getElementById('apps_section').style.display = 'block';
+}
+function closeapps() {
+    document.getElementById('apps_section').style.display = 'none';
 }
 function showabout() {
     $("#about_container").css("display","inherit");
