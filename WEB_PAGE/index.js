@@ -2,9 +2,9 @@ var currentlanguage = 'en';
 
 const translations = {
     about: { en: 'about', es: 'sobre mi' },
-    work: { en: 'work', es: 'proyectos' },
+    work: { en: 'proyects', es: 'proyectos' },
     curriculum: { en: 'curriculum', es: 'curriculum' },
-    career: { en: 'Software Engineer / Game Developer', es: 'Ingenieria de software / Desarrollo de videojuegos' },
+    career: { en: 'Software Engineer / Game Developer', es: 'Ingeniería de software / Desarrollo de videojuegos' },
 
     projecth1: { en: 'Proyects.', es: 'Proyectos.' },
     projecth2: { en: 'Proyects' , es: 'Proyectos' },
@@ -14,7 +14,7 @@ const translations = {
     videogamesh2: { en: 'The sins we made.', es:'The sins we made.' },
     videogamesd1: {
         en: "A horror game made with some friends in Halloween for the 5th Edition Game Scholars's Game Jam.",
-        es: "Un juego de terror hecho con algunos amigos para la 5a Edicion de la Game Jam de Game Scholar's."
+        es: "Un juego de terror hecho con algunos amigos para la 5ª Edición de la Game Jam de Game Scholar's."
     },
     seeProject1: { en: 'See the proyect', es: 'Ver el proyecto' },
 
@@ -22,13 +22,13 @@ const translations = {
     aboutme: { en: 'About me', es: 'Sobre mi' },
     aboutmed1: {
         en: 'Aspiring Game Design and Development student actively seeking internship opportunities to kickstart my professional journey. I am highly motivated to contribute to innovative projects and join diverse teams across various sectors to broaden my horizons and sharpen my skill set.',
-        es: 'Estudiante de Dise�o y Desarrollo de Videojuegos buscando pr�cticas para dar el pistoletazo de salida a mi carrera profesional. Estoy motivada para aportar valor en proyectos innovadores y unirme a equipos diversos en distintos sectores para ampliar mis horizontes y pulir mis habilidades.'
+        es: 'Estudiante de Diseño y Desarrollo de Videojuegos buscando prácticas para dar el pistoletazo de salida a mi carrera profesional. Estoy motivada para aportar valor en proyectos innovadores y unirme a equipos diversos en distintos sectores para ampliar mis horizontes y pulir mis habilidades.'
     },
     aboutmed2: {
         en: 'Open to exploring opportunities beyond the gaming industry to apply my creative problem-solving and technical expertise in new professional contexts.',
-        es: 'Abierta a explorar nuevas oportunidades fuera de la industria del videojuego para aplicar mi capacidad creativa de resoluci�n de problemas y mi experiencia t�cnica en nuevos entornos profesionales.'
+        es: 'Abierta a explorar nuevas oportunidades fuera de la industria del videojuego para aplicar mi capacidad creativa de resolución de problemas y mi experiencia técnica en nuevos entornos profesionales.'
     },
-    programmingLanguage: { en: 'Programming language', es: 'Lenguajes de programaci�n' },
+    programmingLanguage: { en: 'Programming language', es: 'Lenguajes de programación' },
     appsaboutme: { en: 'Apps', es: 'Aplicaciones' },
     contact: { en: 'Contact', es: 'Contacto' },
     contactd1: { en: 'Feel free to reach out via my socials or send me a email at: smonteron001@gmail.com.', es: 'Sientete libre de contactarme en alguna de mis redes sociales o de enviarme un correo a: smonteron001@gmail.com.' },
