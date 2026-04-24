@@ -4,7 +4,7 @@ const translations = {
     about: { en: 'about', es: 'sobre mi' },
     work: { en: 'proyects', es: 'proyectos' },
     curriculum: { en: 'curriculum', es: 'curriculum' },
-    career: { en: 'Software Engineer / Game Developer', es: 'Ingeniería de software / Desarrollo de videojuegos' },
+    career: { en: 'Software Developer / Game Developer', es: 'Desarrollo de software / Desarrollo de videojuegos' },
 
     projecth1: { en: 'Proyects.', es: 'Proyectos.' },
     projecth2: { en: 'Proyects' , es: 'Proyectos' },
