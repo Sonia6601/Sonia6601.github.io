@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&subset=latin-ext');
 .lang-es {
     display: none !important;
 }
@@ -36,6 +36,7 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
 }
 #loading {
     width: 100vw;
@@ -144,22 +145,22 @@ body {
     transition: 0.4s ease-in-out;
     border-radius: 50%;
 }
-#contact {
-    width:12vw;
-    height:8vw;
-    text-align:center;
-    font-size:25px;
-    background:transparent;
-    color:#fff;
-    position:fixed;
-    bottom:2vw;
-    left:45vw;
-    display:flex;
+#curriculum {
+    width: 12vw;
+    height: 8vw;
+    text-align: center;
+    font-size: 25px;
+    background: transparent;
+    color: #fff;
+    position: fixed;
+    bottom: 2vw;
+    left: 45vw;
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    z-index:4;
-    transition:0.4s ease-in-out;
-    border-radius:50%;
+    justify-content: center;
+    z-index: 4;
+    transition: 0.4s ease-in-out;
+    border-radius: 50%;
 }
 #about:hover {
     background:rgba(255,50,50,0.9);
@@ -169,9 +170,9 @@ body {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
-#contact:hover {
-    background:rgba(255,50,50,0.9);
-    cursor:pointer;
+#curriculum:hover {
+    background: rgba(255,50,50,0.9);
+    cursor: pointer;
 }
 #middle table {
     width:30%;
@@ -358,7 +359,7 @@ body {
     #about {
         display:none;
     }
-    #contact {
+    #curriculum {
         display:none;
     }
     #work {

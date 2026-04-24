@@ -26,7 +26,7 @@
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">proyects</a>
-    <a id="contact" onclick="window.open('tucv.pdf', '_blank')" class="animated fadeIn" style="animation-delay:2.2s;">curriculum</a>
+    <a id="curriculum" onclick="window.open('tucv.pdf', '_blank')" class="animated fadeIn" style="animation-delay:2.2s;">curriculum</a>
 
 
 
@@ -50,24 +50,24 @@
     </div>
     <div id="work_container" class="container">
         <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>Proyects.</h1>
+        <h1 id="projecth1">Proyects.</h1>
         <section>
-            <h2>Proyects</h2>
-            <p>A showcase of several personal projects I've done.</p>
-            <button class="btn_one" onclick="showvideogames()">Videogames</button>
-            <button class="btn_two" onclick="showApps()">Apps</button>
+            <h2 id="projecth2">Proyects</h2>
+            <p id="projectd1">A showcase of several personal projects I've done or participated in.</p>
+            <button id="videogames" class="btn_one" onclick="showvideogames()">Videogames</button>
+            <button id="Apps" class="btn_two" onclick="showApps()">Apps</button>
 
             <div id="videogames_section" style="display:none;">
                 <section>
-                    <h2>The sins we made.</h2>
-                    <p>A horror game made in Halloween for the 5th Edition Game Scholars's Game Jam.</p>
+                    <h2 id="videogamesh2">The sins we made.</h2>
+                    <p id="videogamesd1">A horror game made with some friends in Halloween for the 5th Edition Game Scholars's Game Jam.</p>
                     <div id="used">
                         <div><i class="fas fa-circle"></i>&nbsp;Unity</div>
                         <div><i class="fas fa-circle"></i>&nbsp;Blender</div>
                         <div><i class="fas fa-circle"></i>&nbsp;Photoshop</div>
                     </div>
 
-                    <button class="btn_one" onclick="window.open('https://namederis.itch.io/the-sins-we-made', '_blank')">See the proyect</button>
+                    <button id="seeProject1" class="btn_one" onclick="window.open('https://namederis.itch.io/the-sins-we-made', '_blank')">See the proyect</button>
                 </section>
             </div>
 
@@ -89,16 +89,12 @@
     </div>
     <div id="about_container" class="container">
         <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-        <h1>about.</h1>
+        <h1 id="abouth1">about.</h1>
         <section>
-            <h2>about me</h2>
-            <p>
-                Aspiring Game Design and Development student actively seeking internship opportunities to kickstart my professional journey. I am highly motivated to contribute to innovative projects and join diverse teams across various sectors to broaden my horizons and sharpen my skill set.
-            </p>
-            <p>
-                Open to exploring opportunities beyond the gaming industry to apply my creative problem-solving and technical expertise in new professional contexts.
-            </p>
-            <h2>Programming language</h2>
+            <h2 id="aboutme">about me</h2>
+            <p id="aboutmed1">Aspiring Game Design and Development student actively seeking internship opportunities to kickstart my professional journey. I am highly motivated to contribute to innovative projects and join diverse teams across various sectors to broaden my horizons and sharpen my skill set.</p>
+            <p id="aboutmed2">Open to exploring opportunities beyond the gaming industry to apply my creative problem-solving and technical expertise in new professional contexts.</p>
+            <h2 id="programmingLanguage">Programming language</h2>
             <div id="used">
                 <div><i class="fas fa-circle"></i>&nbsp;Python</div>
                 <div><i class="fas fa-circle"></i>&nbsp;Java</div>
@@ -106,15 +102,15 @@
                 <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
                 <div><i class="fas fa-circle"></i>&nbsp;C#</div>
             </div>
-            <h2>Apps</h2>
+            <h2 id="appsaboutme">Apps</h2>
             <div id="used">
                 <div><i class="fas fa-circle"></i>&nbsp;Unity</div>
                 <div><i class="fas fa-circle"></i>&nbsp;Blender</div>
             </div>
         </section>
         <section>
-            <h2>Contact</h2>
-            <p>
+            <h2 id="contact">Contact</h2>
+            <p id="contactd1">
                 Feel free to reach out via my socials or send me a email at: smonteron001@gmail.com.
             </p>
         </section>
