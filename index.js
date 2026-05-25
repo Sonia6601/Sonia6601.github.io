@@ -10,13 +10,20 @@ const translations = {
     projecth2: { en: 'Proyects' , es: 'Proyectos' },
     projectd1: { en: "A showcase of several personal projects I've done or participated in." , es: 'Una muestra de distintos proyectos que he hecho o en los que he participado.' },
     videogames: { en: 'Videogames' , es:'Videojuegos' },
-    Apps: { en: 'Apps' , es:'Aplicaciones' },
     videogamesh2: { en: 'The sins we made.', es:'The sins we made.' },
     videogamesd1: {
         en: "A horror game made with some friends in Halloween for the 5th Edition Game Scholars's Game Jam.",
         es: "Un juego de terror hecho con algunos amigos para la 5ª Edición de la Game Jam de Game Scholar's."
     },
     seeProject1: { en: 'See the proyect', es: 'Ver el proyecto' },
+
+    h2s1: { en: 'Qlearning algorithm.', es: 'Algoritmo de Qlearning' },
+    ps1: { en: 'A Qlearning algorithm fully implemented in Unity.', es: 'Un algoritmo de Qlearning implementado por completo en Unity.' },
+    seeProject2: { en: 'See the proyect', es: 'Ver el proyecto' },
+
+    h2s2: { en: 'C++ graphic engine.', es: 'Engine gráfica en C++.'},
+    ps2: { en: 'A graphic engine with a immersive and interactive environment.', es: 'Una engine gráfica con un escenario inmersivo e interactivo.'},
+    seeProject3: { en: 'See the proyect', es: 'Ver el proyecto' },
 
     abouth1: { en: 'About.', es: 'Sobre mi.'},
     aboutme: { en: 'About me', es: 'Sobre mi' },
@@ -57,10 +64,10 @@ function closevideogames() {
 }
 
 function showapps() {
-    document.getElementById('apps_section').style.display = 'block';
+    document.getElementById('software_section').style.display = 'block';
 }
 function closeapps() {
-    document.getElementById('apps_section').style.display = 'none';
+    document.getElementById('software_section').style.display = 'none';
 }
 function showabout() {
     $("#about_container").css("display","inherit");

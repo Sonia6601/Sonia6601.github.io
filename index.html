@@ -54,8 +54,9 @@
         <section>
             <h2 id="projecth2">Proyects</h2>
             <p id="projectd1">A showcase of several personal projects I've done or participated in.</p>
-            <button id="videogames" class="btn_one" onclick="showvideogames()">Videogames</button>
-            <!--<button id="Apps" class="btn_two" onclick="showApps()">Apps</button>-->
+            <button id="videogames" class="btn_one" onclick="showvideogames(), closeapps()">Videogames</button>
+            <button id="software" class="btn_two" onclick="showapps(), closevideogames()">Software</button>
+
 
             <div id="videogames_section" style="display:none;">
                 <section>
@@ -71,18 +72,30 @@
                 </section>
             </div>
 
-
-            <!--<div id="apps_section" style="display:none;">
+            <div id="software_section" style="display:none;">
                 <section>
-                    <h2>The sins we made.</h2>
-                    <p>A horror game made in Halloween for the 5th Edition Game Scholars's Game Jam.</p>
+                    <h2 id="h2s1">Qlearning algorithm.</h2>
+                    <p id="ps1">A Qlearning algorithm fully implemented in Unity.</p>
                     <div id="used">
                         <div><i class="fas fa-circle"></i>&nbsp;Unity</div>
+                        <div><i class="fas fa-circle"></i>&nbsp;C#</div>
+
                     </div>
 
-                    <button class="btn_one" onclick="window.open('https://namederis.itch.io/the-sins-we-made', '_blank')">See the proyect</button>
+                    <button  id="seeProject2" class="btn_one" onclick="window.open('https://github.com/Sonia6601/IA_Qlearning', '_blank')">See the proyect</button>
                 </section>
-            </div>-->
+
+                <section>
+                    <h2 id="h2s2">C++ graphic engine.</h2>
+                    <p id="ps2">A graphic engine with a immersive and interactive environment.</p>
+                    <div id="used">
+                        <div><i class="fas fa-circle"></i>&nbsp;C++</div>
+
+                    </div>
+
+                    <button id="seeProject3" class="btn_one" onclick="window.open('https://github.com/Sonia6601/MotorJuegoC', '_blank')">See the proyect</button>
+                </section>
+            </div>
 
 
         </section>
